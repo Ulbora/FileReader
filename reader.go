@@ -4,3 +4,5 @@ package reader
 type FileReader interface {
 	ReadCsvFile(file []byte) *CsvFiles
 }
+
+//go mod init github.com/Ulbora/FileReader
